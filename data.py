@@ -84,10 +84,7 @@ def linedistance():#5
     while auc[4]==0:
         twopointdistance()#i3#i6
     reset_ptr_1to4()#i5i6
-    if auc[0]+1<data[0][6]:
-        auc[0]+=1
-    else:
-        auc[4]+=1
+    auc0assign()
     P[5]=0
     Rt=auc[4]
     recordRt()
