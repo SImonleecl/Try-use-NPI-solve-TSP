@@ -8,4 +8,4 @@ Introducion on model
   "my_encoder/save_net.ckpt"
 4.VartoCons.py will extract data form "my_encoder/save_net.ckpt" and generate weight and bias data of encoder, which are 'ecow1.npy'.'ecow2.npy','ecob1.npy' and 'ecob2.npy'.
 5. LSTMTRAIN.py(failed) will use encoder data and train. Warning that it is easily crashed down. So there is no output analysis until this part.
-6. draft2.py can show the scale of excution trace, so it can prove why LSTMTRAIN.py crashes down.
+6. data.py can show the scale of excution trace, so it can prove why LSTMTRAIN.py crashes down.
